@@ -1,10 +1,15 @@
 public class CalendarioIncontri extends CorsoRecupero{
 
 
-    private String[] data;
-    private String luogo;
+    private int data;
 
 
-    public CalendarioIncontri(String[] data, String luogo, String nome, String cognome, String matricola, String classe) {
+
+    public CalendarioIncontri(int data) {
         super();
+        this.data = data;
+    }
+    public int getData() {
+        return data;
+    }
 }
