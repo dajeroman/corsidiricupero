@@ -1,4 +1,4 @@
-public class Docente {
+public class Docente extends CorsoRecupero{
     //memorizzare nome, cognome, matricola
     private String nome;
     private String cognome;
@@ -23,5 +23,9 @@ public class Docente {
 
     public String getMatricola() {
         return matricola;
+    }
+
+    public String getStringa() {
+        return nome + " " + cognome + " " + matricola;
     }
 }
